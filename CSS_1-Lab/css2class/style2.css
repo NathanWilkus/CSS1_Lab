@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main{
+    max-width: 95%;
+    margin: 10px;
+}
+
+
+h2.main-title{
+    text-transform: uppercase;
+}
+
+h1.town{
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+
+section#somewhere{
+    border: 2px blue solid;
+    border-radius: 25px;
+    padding: 10px;
+    overflow: auto;
+    margin-bottom: 20px;
+}
+
+section#somewhere::after{
+    content: '';
+    clear: both;
+}
+
+.left-pannel{
+    float: left;
+    /* vertical-align: middle; */
+}
+
+.left-pannel div{
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 90px;
+}
+
+.left-pannel img{
+    display: inline-block;
+    float: left;
+    width: 300px;
+    
+}
+
+p.temp {
+    /* rem => 1rem = 16px */
+    font-size: 4rem;
+    font-weight: bolder;
+}
+
+p.feels-like{
+    font-size: 2rem;    
+}
+
+.right-pannel div{
+    float: right;
+    margin-right: 100px;
+    width: 30%;
+    font-size: 22px;
+}
+
+.right-pannel p{
+    margin: 12px 0;
+}
+
+.right-pannel .value{
+    display: inline-block;
+    float: right;
+}
+
+.right-pannel .green{
+    color: green;
+}
+
+footer{
+    margin-top: 50px;
+    padding: 1rem;
+    background-color: aqua;
+}
